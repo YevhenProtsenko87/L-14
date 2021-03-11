@@ -1,0 +1,30 @@
+
+$icons:(
+    packman: '\e916',
+    headphones: '\e910',
+    bug: '\e999',
+    tongue2: '\e9e4',
+    tux: '\eabd',
+    android: '\eac0',
+    reddit: '\eac6'
+);
+
+@each $key, $value in $icons {
+    .icon--#{$key} {
+        &:after {
+            content: ($value);
+            font-family: 'IcoMoon';
+            font-size: 20px;
+        }
+    }
+}
+
+
+    
+@for $i from 2 through 5 {
+    .icon-block-size-x#{$i}{
+        font-size: 20px * $i;
+    }
+}
+
+

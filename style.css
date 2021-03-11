@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.icon--packman:after {
+  content: "";
+  font-family: 'IcoMoon';
+  font-size: 20px;
+}
+
+.icon--headphones:after {
+  content: "";
+  font-family: 'IcoMoon';
+  font-size: 20px;
+}
+
+.icon--bug:after {
+  content: "";
+  font-family: 'IcoMoon';
+  font-size: 20px;
+}
+
+.icon--tongue2:after {
+  content: "";
+  font-family: 'IcoMoon';
+  font-size: 20px;
+}
+
+.icon--tux:after {
+  content: "";
+  font-family: 'IcoMoon';
+  font-size: 20px;
+}
+
+.icon--android:after {
+  content: "";
+  font-family: 'IcoMoon';
+  font-size: 20px;
+}
+
+.icon--reddit:after {
+  content: "";
+  font-family: 'IcoMoon';
+  font-size: 20px;
+}
+
+.icon-block-size-x2 {
+  font-size: 40px;
+}
+
+.icon-block-size-x3 {
+  font-size: 60px;
+}
+
+.icon-block-size-x4 {
+  font-size: 80px;
+}
+
+.icon-block-size-x5 {
+  font-size: 100px;
+}
+/*# sourceMappingURL=style.css.map */
